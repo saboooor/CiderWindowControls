@@ -1,6 +1,5 @@
-# 🎨 Cider Theme Template
+# Rounded Window Control Buttons
 
-This repository is a theme template for Cider
+Provides rounded window control buttons as seen on AME's eleven-cider-round theme!
 
-
-![image](https://user-images.githubusercontent.com/49113086/153828900-3bbc2a41-349b-4bc9-bc61-813a4a0ee2f2.png)
+![image](https://user-images.githubusercontent.com/42164502/177065556-14c8870c-43e6-434e-b12c-fa8330a5df1a.png)
