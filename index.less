@@ -1,9 +1,29 @@
 #app-main .app-chrome--right .window-controls {
-    .minimize, .minmax, .close {
-        border-radius: 5px;
-        margin: 5px 5px 5px 0;
-        width: 80%;
-        height: 80%;
-        transition: 0.2s;
+
+    .minimize:hover, .minmax:hover, .close:hover {
+        background-color: #00000000;
     }
+
+    .minimize:before, .minmax:before, .close:before {
+        content: "";
+        transition: 0.1s;
+        transform: scale(0);
+        width: 100%;
+        height: 100%;
+        float: right;
+        border-radius: 8px;
+    }
+
+    .close:before {
+        background-color: #ff1b1b30;
+    }
+
+    .minimize:before, .minmax:before {
+        background-color: #ffffff10;
+    }
+
+    .minimize:hover:before, .minmax:hover:before, .close:hover:before {
+        transform: scale(0.8);
+    }
+
 }
