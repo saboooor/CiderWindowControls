@@ -1,7 +1,7 @@
 {
-  "name": "Rounded Buttons",
-  "description": "Rounded Window Controls for Cider",
+  "name": "Cider Window Controls",
+  "description": "Cider style window controls",
   "version": "1.1.0",
   "author": "saboooor",
-  "github_repo": "saboooor/CiderRoundedButtons"
+  "github_repo": "saboooor/CiderWindowControls"
 }
